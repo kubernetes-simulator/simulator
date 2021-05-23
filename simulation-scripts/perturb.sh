@@ -339,7 +339,7 @@ template_tasks() {
   local pod_name
   local POD_NAME
   local POD_RESULT
-  tasks_json=$(yq r -j tasks.yaml)
+  tasks_json=$(yq eval -j tasks.yaml)
   cp tasks.yaml "${tmptasks}"
   POD_NAME=$(echo "${tasks_json}" | jq -r '.tasks[].startingPoint.podName | select (.!=null)')
   for pod_name in $POD_NAME; do

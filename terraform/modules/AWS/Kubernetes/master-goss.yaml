@@ -26,7 +26,7 @@ service:
 group:
   docker:
     exists: true
-    gid: 115
+    gid: 999
 process:
   kubelet:
     running: true
