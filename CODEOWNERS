@@ -4,25 +4,25 @@
 * @kubernetes-simulator/simulator
 
 # Scenarios
-/simulation-scripts/scenario @s-irvine @pi-unnerup @abdullahgarcia
+/simulation-scripts/scenario @s-irvine @pi-unnerup @abdullahgarcia @jondkent
 
 # Terraform
-/terraform @s-irvine @raoulmillais @jondkent
+/terraform @s-irvine @raoulmillais @jondkent @abdullahgarcia
 
 # Tools
-/tools @raoulmillais @abdullahgarcia
+/tools @raoulmillais @abdullahgarcia @jondkent
 
 # Attack Container
-/attack @raoulmillais @jondkent
+/attack @raoulmillais @jondkent @abdullahgarcia
 
 # Simulator Binaries
 /cmd @raoulmillais @jondkent @abdullahgarcia
 /pkg @raoulmillais @jondkent @abdullahgarcia
 
 # kubesim
-/kubesim @s-irvine @raoulmillais
+/kubesim @s-irvine @raoulmillais @jondkent @abdullahgarcia
 
 # Build Files
-/Dockerfile @s-irvine @raoulmillais @pi-unnerup @jondkent
-/Jenkinsfile @raoulmillais @s-irvine @pi-unnerup
-/Makefile @s-irvine @raoulmillais @pi-unnerup @jondkent
+/Dockerfile @s-irvine @raoulmillais @pi-unnerup @jondkent @abdullahgarcia
+/Jenkinsfile @raoulmillais @s-irvine @pi-unnerup @jondkent @abdullahgarcia
+/Makefile @s-irvine @raoulmillais @pi-unnerup @jondkent @abdullahgarcia
